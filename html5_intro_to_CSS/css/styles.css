@@ -1,0 +1,93 @@
+/* Poisonberry Apothecary External Stylesheet */
+
+body {
+  background-color: #f5f2ed;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2b2b2b;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d9c3a9;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #3e2b23;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #5b3a2b;
+}
+
+h3 {
+  color: #714f3a;
+  margin-top: 24px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+a {
+  color: #714f3a;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.centered-img {
+  display: block;
+  margin: 16px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #d9c3a9;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  margin: 20px 0;
+}
+
