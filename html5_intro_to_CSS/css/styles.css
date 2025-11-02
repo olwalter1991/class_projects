@@ -1,13 +1,13 @@
 body {
-  background-color: #f2efe9;
+  background-color: beige;
   font-family: Arial, sans-serif;
-  color: #333333;
+  color: black;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #cbb89d;
+  background-color: tan;
   text-align: center;
   padding: 20px;
 }
@@ -21,7 +21,7 @@ nav {
 }
 
 nav a {
-  color: #3b2f2f;
+  color: brown;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -37,11 +37,11 @@ main {
 }
 
 h2 {
-  color: #4a3c2f;
+  color: sienna;
 }
 
 h3 {
-  color: #5d4b38;
+  color: saddlebrown;
   margin-top: 20px;
 }
 
@@ -55,7 +55,7 @@ ul {
 }
 
 a {
-  color: #5d4b38;
+  color: saddlebrown;
 }
 
 .centered-img {
@@ -67,12 +67,12 @@ a {
 
 hr {
   border: none;
-  border-top: 1px solid #aaa;
+  border-top: 1px solid gray;
   margin: 20px 0;
 }
 
 footer {
-  background-color: #cbb89d;
+  background-color: tan;
   text-align: center;
   padding: 15px;
   font-size: 0.9em;
