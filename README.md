@@ -10,5 +10,5 @@
     <li><a href="advanced_css/index.html" target="_blank">Advanced CSS</a></li>
 </ul> 
 <ul> 
-    <li><a href="responsive_web_design.html" target="_blank">Responsive Web Design</a></li>
+    <li><a href="responsive_web_design/index.html" target="_blank">Responsive Web Design</a></li>
 </ul> 
