@@ -1,0 +1,84 @@
+/* ====== RESET ====== */
+}
+
+/* ====== GRID SECTIONS ====== */
+.grid {
+display: grid;
+grid-template-columns: 1fr;
+gap: 1.5rem;
+}
+
+.card {
+background: white;
+padding: 1rem;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+margin-bottom: 0.5rem;
+color: #552c3b;
+}
+
+/* ====== CONTACT FORM ====== */
+form {
+background: white;
+padding: 1.5rem;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+input, textarea {
+width: 100%;
+padding: 0.8rem;
+margin-top: 0.5rem;
+margin-bottom: 1rem;
+border: 1px solid #bda7b4;
+border-radius: 5px;
+font-size: 1rem;
+}
+
+button {
+background: #6a3c4a;
+color: white;
+padding: 0.8rem 1.5rem;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1rem;
+transition: background 0.3s;
+}
+
+button:hover {
+background: #8a5166;
+}
+
+/* ====== FOOTER ====== */
+footer {
+text-align: center;
+background: #3d2431;
+color: #fceee7;
+padding: 1rem;
+margin-top: 3rem;
+}
+
+/* ====== RESPONSIVE BREAKPOINTS ====== */
+@media (min-width: 600px) {
+nav {
+gap: 2rem;
+}
+
+.grid {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media (min-width: 900px) {
+.grid {
+grid-template-columns: repeat(3, 1fr);
+}
+
+.hero h2 {
+font-size: 3rem;
+}
+}
