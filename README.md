@@ -12,5 +12,6 @@
 <ul> 
     <li><a href="responsive_web_design/index.html" target="_blank">Responsive Web Design</a></li>
 </ul> 
+<ul>
     <li><a href="final_project/index.html" target="_blank">Final Project</a></li>
 </ul> 
