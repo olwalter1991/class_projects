@@ -1,0 +1,53 @@
+<!doctype html>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<a href="index.html" class="brand">Poisonberry Apothecary</a>
+<button id="nav-toggle-2" class="nav-toggle" aria-expanded="false" aria-controls="site-nav-2">
+<span class="sr-only">Toggle navigation</span>
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</button>
+<nav id="site-nav-2" class="site-nav">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html" aria-current="page">About</a></li>
+<li><a href="menu.html">Shop</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html" class="btn">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<main class="container">
+<article class="about">
+<h1>Our Story</h1>
+<p>Founded in Chattanooga, Poisonberry Apothecary began as a small kitchen project and blossomed into a community‑focused apothecary. We value responsible sourcing, slow craft, and education.</p>
+<h2>Our Process</h2>
+<p>We prepare each item in small batches using traditional methods. We prioritize organic ingredients and transparent labeling.</p>
+<h2>Visit Us</h2>
+<p>Find us at local markets and pop‑up events. Join our mailing list for workshop announcements and seasonal drops.</p>
+</article>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<p>© <span id="year2"></span> Poisonberry Apothecary</p>
+</div>
+</footer>
+
+<script>
+document.getElementById('year2').textContent = new Date().getFullYear();
+// duplicate toggle script for second header
+const navToggle2 = document.getElementById('nav-toggle-2');
+const siteNav2 = document.getElementById('site-nav-2');
+navToggle2.addEventListener('click', () => {
+const expanded = navToggle2.getAttribute('aria-expanded') === 'true' || false;
+navToggle2.setAttribute('aria-expanded', !expanded);
+siteNav2.classList.toggle('open');
+});
+</script>
+</body>
+</html>

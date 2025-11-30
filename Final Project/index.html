@@ -1,0 +1,64 @@
+<!doctype html>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<div class="container hero-inner">
+<h1>Handmade Holistic Remedies & Apothecary Goods</h1>
+<p>Poisonberry Apothecary — small‑batch herbal salves, ritual candles, teas, and apothecary curios made in Chattanooga.</p>
+<a href="menu.html" class="btn large">Shop Now</a>
+</div>
+</section>
+
+<section class="features container">
+<article>
+<h2>Artisan Candles</h2>
+<p>Sustainably made candles infused with herbal correspondences — perfect for ritual, relaxation, or gifting.</p>
+</article>
+<article>
+<h2>Herbal Remedies</h2>
+<p>Small–batch salves, tinctures, and teas crafted using traditional methods and ethically sourced botanicals.</p>
+</article>
+<article>
+<h2>Workshops & Events</h2>
+<p>Join our local workshops in Chattanooga for hands‑on learning about herbalism and candlecraft.</p>
+</article>
+</section>
+
+<section class="intro container">
+<div class="split">
+<img src="assets/hero.jpg" alt="Candles and apothecary jars">
+<div>
+<h2>From Our Hands to Yours</h2>
+<p>Poisonberry Apothecary started as a love letter to herbal craft. Every item is handcrafted with intention and care, using sustainably harvested botanicals and recyclable packaging.</p>
+<a href="about.html" class="link">Learn more about our story →</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<p>© <span id="year"></span> Poisonberry Apothecary — Chattanooga, TN</p>
+<ul class="social">
+<li><a href="#">Instagram</a></li>
+<li><a href="#">Etsy</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</footer>
+
+<script>
+// Small script for nav toggle and year
+const navToggle = document.getElementById('nav-toggle');
+const siteNav = document.getElementById('site-nav');
+navToggle.addEventListener('click', () => {
+const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
+navToggle.setAttribute('aria-expanded', !expanded);
+siteNav.classList.toggle('open');
+});
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
