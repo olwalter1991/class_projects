@@ -96,3 +96,18 @@ font-size: 3rem;
     object-fit: cover;
     max-width: none; 
 }
+.video-showcase {
+    padding: 40px 0; 
+    text-align: center;
+}
+
+.video-wrapper {
+    max-width: 800px; 
+    margin: 20px auto; 
+}
+
+.video-wrapper iframe {
+    
+    width: 100%; 
+    display: block;
+}
