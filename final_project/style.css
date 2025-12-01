@@ -81,7 +81,7 @@ font-size: 3rem;
 /* In css/style.css */
 
 .masonry {
-    /* Sets the container as a Grid */
+  
     display: grid;
     /* Creates columns that automatically adjust */
     /* It will have a minimum width of 250px and a maximum of 1fr (equal share of space) */
@@ -89,15 +89,10 @@ font-size: 3rem;
     gap: 15px; /* Spacing between images */
     margin-top: 20px;
 }
-/* In css/style.css */
 
 .masonry img {
-    /* The image will always fill 100% of its grid cell width */
     width: 100%;
-    /* Sets a fixed height for a clean look, or use 'auto' to keep original aspect ratio */
-    /* Using object-fit: cover prevents distortion if you use a fixed height */
     height: 300px; 
     object-fit: cover;
-    /* Removes the hardcoded dimensions from the HTML for cleaner code (optional but recommended) */
     max-width: none; 
 }
